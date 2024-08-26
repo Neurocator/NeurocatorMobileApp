@@ -8,13 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		14049C9F2C5EFBB6005A619D /* NeurocatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049C9E2C5EFBB6005A619D /* NeurocatorApp.swift */; };
-		14049CA12C5EFBB6005A619D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CA02C5EFBB6005A619D /* ContentView.swift */; };
 		14049CA32C5EFBB6005A619D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CA22C5EFBB6005A619D /* Item.swift */; };
 		14049CA52C5EFBB7005A619D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14049CA42C5EFBB7005A619D /* Assets.xcassets */; };
-		14049CA92C5EFBB7005A619D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14049CA82C5EFBB7005A619D /* Preview Assets.xcassets */; };
 		14049CB32C5EFBB7005A619D /* NeurocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CB22C5EFBB7005A619D /* NeurocatorTests.swift */; };
 		14049CBD2C5EFBB7005A619D /* NeurocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CBC2C5EFBB7005A619D /* NeurocatorUITests.swift */; };
 		14049CBF2C5EFBB7005A619D /* NeurocatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CBE2C5EFBB7005A619D /* NeurocatorUITestsLaunchTests.swift */; };
+		14049CCC2C5EFE56005A619D /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CCB2C5EFE56005A619D /* TaskViewModel.swift */; };
+		14049CCE2C5EFFE2005A619D /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CCD2C5EFFE2005A619D /* HomePage.swift */; };
+		14049CD02C5F0039005A619D /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CCF2C5F0039005A619D /* LoginPage.swift */; };
+		14049CD22C5F0046005A619D /* SignupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CD12C5F0046005A619D /* SignupPage.swift */; };
+		14049CD42C5F0436005A619D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CD32C5F0436005A619D /* WelcomeView.swift */; };
+		14049CD82C5F0D99005A619D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14049CD72C5F0D99005A619D /* SplashScreenView.swift */; };
+		1417B42D2C7015FF00B74D7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1417B42C2C7015FF00B74D7C /* Preview Assets.xcassets */; };
+		1417B4302C70188D00B74D7C /* InDevelopment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417B42F2C70188D00B74D7C /* InDevelopment.swift */; };
+		1417B4342C7029A800B74D7C /* Navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417B4332C7029A700B74D7C /* Navbar.swift */; };
+		142EE8B62C7BADC800D96601 /* LiveAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EE8B52C7BADC800D96601 /* LiveAssistant.swift */; };
+		142EE8B82C7BAE7600D96601 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EE8B72C7BAE7600D96601 /* Resources.swift */; };
+		142EE8BA2C7BAE9100D96601 /* Whiteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EE8B92C7BAE9100D96601 /* Whiteboard.swift */; };
+		142EE8BC2C7BAF2200D96601 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EE8BB2C7BAF2200D96601 /* FAQ.swift */; };
+		1432BA172C62D35B00D8034C /* To-DoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1432BA162C62D35B00D8034C /* To-DoList.swift */; };
+		148811012C7AEBE500E39A9E /* LiveAssistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148811002C7AEBE500E39A9E /* LiveAssistance.swift */; };
+		148811032C7AEBEF00E39A9E /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148811022C7AEBEF00E39A9E /* Forum.swift */; };
+		14CB9D922C6D742500F96D78 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CB9D912C6D742500F96D78 /* Quotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,16 +52,31 @@
 /* Begin PBXFileReference section */
 		14049C9B2C5EFBB6005A619D /* Neurocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neurocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14049C9E2C5EFBB6005A619D /* NeurocatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurocatorApp.swift; sourceTree = "<group>"; };
-		14049CA02C5EFBB6005A619D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14049CA22C5EFBB6005A619D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		14049CA42C5EFBB7005A619D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14049CA62C5EFBB7005A619D /* Neurocator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neurocator.entitlements; sourceTree = "<group>"; };
-		14049CA82C5EFBB7005A619D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14049CAE2C5EFBB7005A619D /* NeurocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeurocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14049CB22C5EFBB7005A619D /* NeurocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurocatorTests.swift; sourceTree = "<group>"; };
 		14049CB82C5EFBB7005A619D /* NeurocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeurocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14049CBC2C5EFBB7005A619D /* NeurocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurocatorUITests.swift; sourceTree = "<group>"; };
 		14049CBE2C5EFBB7005A619D /* NeurocatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurocatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14049CCB2C5EFE56005A619D /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		14049CCD2C5EFFE2005A619D /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		14049CCF2C5F0039005A619D /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		14049CD12C5F0046005A619D /* SignupPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPage.swift; sourceTree = "<group>"; };
+		14049CD32C5F0436005A619D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		14049CD72C5F0D99005A619D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		1417B42C2C7015FF00B74D7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "../Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1417B42F2C70188D00B74D7C /* InDevelopment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InDevelopment.swift; sourceTree = "<group>"; };
+		1417B4332C7029A700B74D7C /* Navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar.swift; sourceTree = "<group>"; };
+		142EE8B52C7BADC800D96601 /* LiveAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAssistant.swift; sourceTree = "<group>"; };
+		142EE8B72C7BAE7600D96601 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		142EE8B92C7BAE9100D96601 /* Whiteboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whiteboard.swift; sourceTree = "<group>"; };
+		142EE8BB2C7BAF2200D96601 /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		1432BA162C62D35B00D8034C /* To-DoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To-DoList.swift"; sourceTree = "<group>"; };
+		148811002C7AEBE500E39A9E /* LiveAssistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAssistance.swift; sourceTree = "<group>"; };
+		148811022C7AEBEF00E39A9E /* Forum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
+		14CB9D912C6D742500F96D78 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,21 +128,28 @@
 			isa = PBXGroup;
 			children = (
 				14049C9E2C5EFBB6005A619D /* NeurocatorApp.swift */,
-				14049CA02C5EFBB6005A619D /* ContentView.swift */,
+				14049CD72C5F0D99005A619D /* SplashScreenView.swift */,
+				14049CD32C5F0436005A619D /* WelcomeView.swift */,
+				1417B4332C7029A700B74D7C /* Navbar.swift */,
+				14049CCF2C5F0039005A619D /* LoginPage.swift */,
+				14049CD12C5F0046005A619D /* SignupPage.swift */,
+				14049CCD2C5EFFE2005A619D /* HomePage.swift */,
+				14CB9D912C6D742500F96D78 /* Quotes.swift */,
+				14049CCB2C5EFE56005A619D /* TaskViewModel.swift */,
+				148811002C7AEBE500E39A9E /* LiveAssistance.swift */,
+				148811022C7AEBEF00E39A9E /* Forum.swift */,
+				142EE8BB2C7BAF2200D96601 /* FAQ.swift */,
+				1432BA162C62D35B00D8034C /* To-DoList.swift */,
+				142EE8B52C7BADC800D96601 /* LiveAssistant.swift */,
+				142EE8B72C7BAE7600D96601 /* Resources.swift */,
+				142EE8B92C7BAE9100D96601 /* Whiteboard.swift */,
 				14049CA22C5EFBB6005A619D /* Item.swift */,
 				14049CA42C5EFBB7005A619D /* Assets.xcassets */,
 				14049CA62C5EFBB7005A619D /* Neurocator.entitlements */,
-				14049CA72C5EFBB7005A619D /* Preview Content */,
+				1417B42E2C70187F00B74D7C /* Templates */,
+				14C08A542C7014D6002DDA34 /* Preview Content */,
 			);
 			path = Neurocator;
-			sourceTree = "<group>";
-		};
-		14049CA72C5EFBB7005A619D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				14049CA82C5EFBB7005A619D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		14049CB12C5EFBB7005A619D /* NeurocatorTests */ = {
@@ -130,6 +167,23 @@
 				14049CBE2C5EFBB7005A619D /* NeurocatorUITestsLaunchTests.swift */,
 			);
 			path = NeurocatorUITests;
+			sourceTree = "<group>";
+		};
+		1417B42E2C70187F00B74D7C /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				1417B42F2C70188D00B74D7C /* InDevelopment.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		14C08A542C7014D6002DDA34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1417B42C2C7015FF00B74D7C /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "../../../../../.Trash/Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14049CA92C5EFBB7005A619D /* Preview Assets.xcassets in Resources */,
+				1417B42D2C7015FF00B74D7C /* Preview Assets.xcassets in Resources */,
 				14049CA52C5EFBB7005A619D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +316,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14049CA12C5EFBB6005A619D /* ContentView.swift in Sources */,
+				14049CCE2C5EFFE2005A619D /* HomePage.swift in Sources */,
+				14049CD82C5F0D99005A619D /* SplashScreenView.swift in Sources */,
+				14CB9D922C6D742500F96D78 /* Quotes.swift in Sources */,
+				1417B4302C70188D00B74D7C /* InDevelopment.swift in Sources */,
+				142EE8BA2C7BAE9100D96601 /* Whiteboard.swift in Sources */,
+				14049CCC2C5EFE56005A619D /* TaskViewModel.swift in Sources */,
+				142EE8B82C7BAE7600D96601 /* Resources.swift in Sources */,
+				14049CD42C5F0436005A619D /* WelcomeView.swift in Sources */,
+				142EE8BC2C7BAF2200D96601 /* FAQ.swift in Sources */,
+				148811012C7AEBE500E39A9E /* LiveAssistance.swift in Sources */,
+				14049CD22C5F0046005A619D /* SignupPage.swift in Sources */,
 				14049CA32C5EFBB6005A619D /* Item.swift in Sources */,
+				148811032C7AEBEF00E39A9E /* Forum.swift in Sources */,
+				1432BA172C62D35B00D8034C /* To-DoList.swift in Sources */,
+				1417B4342C7029A800B74D7C /* Navbar.swift in Sources */,
+				14049CD02C5F0039005A619D /* LoginPage.swift in Sources */,
 				14049C9F2C5EFBB6005A619D /* NeurocatorApp.swift in Sources */,
+				142EE8B62C7BADC800D96601 /* LiveAssistant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Neurocator/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T97X38CTD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -444,10 +514,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NeurocatorApp.Neurocator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,6 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Neurocator/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T97X38CTD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -480,10 +552,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NeurocatorApp.Neurocator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
